@@ -1,31 +1,80 @@
 body {
-    font-family: 'Verdana';
-    background-color: #feeeed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-family: 'Verdana';
+  background-color: #feeeed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.middle-selection {
-    background-image: url();
-    
-    
-    
-
-}
+  
 body {
 
-    background-image: url('img/Politics.jpg');
-    background-repeat: no-repeat;
-    
-    background-position: center;
-    
-    background-size: cover;
-    /*background-size: cover;*/
-    
-    opacity: 12;
+  background-image: url('img/Politics.jpg');
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  
+  background-size: cover;
+  /*background-size: cover;*/
+  
+  opacity: 12;
 }
 
 .style{
-    text-align: center;
+  text-align: center;
+}
+
+.file-zip{
+  height: 560px;
+  width: 200px;
+
+}
+
+span4 {
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+span{
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+span3 {
+  background-image: radial-gradient(#C02425, #F0CB35);
+  width: 700px;
+  height: 200px;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: ani 8s infinite ease-in-out;
+  background-position: 200px 200px;
+}
+span1 {
+  background-image: radial-gradient(#f7ff00, #db36a4);
+  width: 700px;
+  height: 200px;
+  font-size: 50px;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: ani 5s infinite ease-in-out;
+  background-position: 200px 200px;
+}
+span2 {
+  background-image: radial-gradient(#ED4264, #FFEDBC);
+  width: 700px;
+  height: 200px;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: ani 5s infinite ease-in-out;
+  background-position: 200px 200px;
+}
+@keyframes ani {
+  0% {
+    background-position: 250px 200px;
+  }
+
+  100% {
+    background-position: 450px 400px;
+
+  }
 }
