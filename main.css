@@ -1,16 +1,31 @@
 body {
     font-family: 'Verdana';
     background-color: #feeeed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.middle-selection {
+    background-image: url();
+    
+    
+    
+
+}
 body {
 
-    background-image: url('img/blue-snow.png');
+    background-image: url('img/Politics.jpg');
     background-repeat: no-repeat;
     
     background-position: center;
     
     background-size: cover;
+    /*background-size: cover;*/
     
     opacity: 12;
+}
+
+.style{
+    text-align: center;
 }
