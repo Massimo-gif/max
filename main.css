@@ -1,5 +1,16 @@
-#main-content {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 16px;
-  }
+body {
+    font-family: 'Verdana';
+    background-color: #feeeed;
+}
+
+body {
+
+    background-image: url('img/blue-snow.png');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+    background-size: cover;
+    
+    opacity: 12;
+}
